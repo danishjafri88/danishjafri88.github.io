@@ -14,12 +14,12 @@ var aasa = {
   }
 }
 app.get('/apple-app-site-association', function(req, res) {
-	res.setHeader("Content-Type", "application/json");
-    res.status(200).send(aasa);
+    res.setHeader("Content-Type", "application/json");
+    return res.status(200).send(aasa);
 });
 
 app.get('/', function(req, res) {
-    res.status(200).send("hello world");
+    return res.status(200).send("hello world");
 });
 
 app.listen(PORT, function() {
