@@ -1,0 +1,10 @@
+{
+  "webcredentials": {
+    "apps": [
+      "5F83KRY2FH.com.ubercab.UberClient.development",
+      "NW8WAZ2XUV.com.ubercab.UberClient.Nightly",
+      "NW8WAZ2XUV.com.ubercab.UberClient.Enterprise",
+      "5F83KRY2FH.com.ubercab.UberClient"
+    ]
+  }
+}
