@@ -18,6 +18,10 @@ app.get('/apple-app-site-association', function(req, res) {
     res.status(200).send(aasa);
 });
 
+app.get('/', function(req, res) {
+    res.status(200).send("hello world");
+});
+
 app.listen(PORT, function() {
     console.log('Server is running on PORT:',PORT);
 });
